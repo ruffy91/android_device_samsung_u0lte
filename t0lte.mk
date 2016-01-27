@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/t0lte
+LOCAL_PATH := device/samsung/u0lte
 
 # Init files
 PRODUCT_COPY_FILES += \
@@ -24,6 +24,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # Include common makefile
-$(call inherit-product, device/samsung/t0lte/common.mk)
+$(call inherit-product, device/samsung/u0lte/common.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/t0lte/t0lte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/u0lte/u0lte-vendor.mk)
