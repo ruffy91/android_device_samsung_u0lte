@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/t0lte
+LOCAL_PATH := device/samsung/u0lte
 
 # Overlay
 ifeq ($(TARGET_VOICE_TECH), cdma)
@@ -92,4 +92,4 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
 $(call inherit-product, device/samsung/smdk4412-qcom-common/common.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/t0lte/t0lte-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/u0lte/u0lte-common-vendor.mk)
